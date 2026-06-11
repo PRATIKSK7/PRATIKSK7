@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,23,34&height=250&section=header&text=Hi,%20I'm%20Pratik%20S%20Kanoj%20👋&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Hi,%20I'm%20Pratik%20S%20Kanoj%20👋&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Artificial+Intelligence+%26+Data+Science+Engineer;Machine+Learning+%7C+Deep+Learning+%7C+Computer+Vision;Building+Intelligent+Real-World+AI+Systems;Open+Source+Contributor+%26+Tech+Enthusiast)](https://git.io/typing-svg)
 
@@ -134,6 +134,6 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 
 *"The future belongs to those who learn more skills and combine them in creative ways."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,23,34&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer" width="100%" />
 
 </div>
