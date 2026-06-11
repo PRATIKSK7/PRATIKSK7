@@ -16,21 +16,21 @@
   </a>
 </p>
 
-![](https://komarev.com/ghpvc/?username=PRATIKSK7&color=38bdf8&style=for-the-badge&label=PROFILE+VIEWS)
-
 </div>
 
 ---
 
-## 🚀 About Me
-
-I am a highly driven **Artificial Intelligence & Data Science Engineer** specializing in translating complex theoretical research into scalable, production-grade applications. My expertise spans **Machine Learning, Deep Learning, Computer Vision**, and **Generative AI**. I am deeply passionate about **Healthcare AI**, having developed advanced Digital Twin systems and predictive analytics platforms.
-
-With a robust full-stack foundation in **FastAPI, React**, and **Python**, I architect end-to-end **MLOps** pipelines deployed on modern **Cloud Technologies**. I thrive at the intersection of AI research and software engineering, building intelligent systems that solve high-impact, real-world problems.
+<details open>
+<summary><b>🚀 Executive Summary</b></summary>
+<br>
+I am a highly driven <b>Artificial Intelligence & Data Science Engineer</b> specializing in translating complex theoretical research into scalable, production-grade applications. My expertise spans <b>Machine Learning, Deep Learning, Computer Vision</b>, and <b>Generative AI</b>. I am deeply passionate about <b>Healthcare AI</b>, having developed advanced Digital Twin systems and predictive analytics platforms.
+<br><br>
+With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>, I architect end-to-end <b>MLOps</b> pipelines deployed on modern <b>Cloud Technologies</b>. I thrive at the intersection of AI research and software engineering, building intelligent systems that solve high-impact, real-world problems.
+</details>
 
 ---
 
-## 🎯 Current Focus
+## 🎯 Strategic Focus
 
 - 🏥 **Healthcare AI:** Pioneering predictive health telemetry and Digital Twin simulations.
 - 👁️ **Computer Vision:** Developing low-latency object detection and anomaly recognition systems.
@@ -39,16 +39,11 @@ With a robust full-stack foundation in **FastAPI, React**, and **Python**, I arc
 
 ---
 
-## 💻 Tech Stack & Skills
+## 💻 Technical Arsenal
 
 <div align="center">
 
-### Programming
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### AI / Machine Learning
+### Core AI & Machine Learning
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -56,7 +51,7 @@ With a robust full-stack foundation in **FastAPI, React**, and **Python**, I arc
 ![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-20232A?style=for-the-badge&logo=google-scholar&logoColor=white)
 
-### Frameworks
+### Frameworks & Libraries
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -64,54 +59,74 @@ With a robust full-stack foundation in **FastAPI, React**, and **Python**, I arc
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-00B2FF?style=for-the-badge&logo=google&logoColor=white)
 
-### Databases
+### Software Engineering
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Interactive Project Showcase
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[AI_ROAD_GUARD](https://github.com/PRATIKSK7/AI_ROAD_GUARD)** | A low-latency, AI-powered accident detection system using real-time video analytics to identify collisions and dispatch Twilio WhatsApp alerts. | YOLO, FastAPI, React, Cloudinary |
-| **[healthcare-digital-twin](https://github.com/PRATIKSK7/healthcare-digital-twin)** | An enterprise-grade AI healthcare dashboard utilizing Digital Twin technology and predictive analytics to simulate patient outcomes. | PyTorch, XGBoost, React, FastAPI |
-| **[SIGN-LANGUAGE-BRIDGE](https://github.com/PRATIKSK7/SIGN-LANGUAGE-BRIDGE)** | A real-time sign language recognition and translation framework bridging communication gaps using sequence-to-sequence neural architectures. | MediaPipe, LSTMs, Computer Vision |
-| **[DeepFake-Detection](https://github.com/PRATIKSK7/DeepFake-Detection)** | A deep learning-based image forensics platform designed to detect AI-generated media and manipulations with extreme precision. | PyTorch, CNNs, Vision Transformers |
-| **[Knowledge-Sphere](https://github.com/PRATIKSK7/Knowledge-Sphere)** | An intelligent knowledge management platform empowering semantic search and discovery via modern RAG pipelines and Large Language Models. | LangChain, Vector DBs, LLMs |
+*(Click on a project to expand its technical details)*
+
+<details>
+<summary><b>🚨 AI_ROAD_GUARD</b> — <i>Real-time accident detection and dispatch system</i></summary>
+
+- **Impact:** Automates collision detection on smart highways to drastically reduce emergency response times.
+- **Architecture:** Integrates **YOLOv8** for real-time inference, **DeepSORT** for multi-object trajectory tracking, and **OpenCV** for spatial analytics.
+- **Deployment:** Powered by a **FastAPI** backend and **React** dashboard with automated **Twilio WhatsApp** integration.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/AI_ROAD_GUARD)
+</details>
+
+<details>
+<summary><b>🏥 healthcare-digital-twin</b> — <i>Predictive telemetry and digital twin simulation</i></summary>
+
+- **Impact:** Empowers clinicians to run risk-free, predictive medical simulations before real-world interventions.
+- **Architecture:** Fuses multivariate time-series forecasting (**LSTMs**) with tabular clinical data risk stratification (**XGBoost** and **SHAP**).
+- **Deployment:** Real-time synchronization handled by high-concurrency **FastAPI** microservices.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/healthcare-digital-twin)
+</details>
+
+<details>
+<summary><b>🤟 SIGN-LANGUAGE-BRIDGE</b> — <i>Sequence-to-sequence kinematic translation</i></summary>
+
+- **Impact:** Breaks down communication barriers by translating complex sign language sequences into natural text and speech in real-time.
+- **Architecture:** Employs **MediaPipe** for spatial hand-landmark extraction and attention-augmented **LSTM** neural architectures.
+- **Deployment:** Optimized for asynchronous inference on edge devices.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/SIGN-LANGUAGE-BRIDGE)
+</details>
+
+<details>
+<summary><b>🕵️ DeepFake-Detection</b> — <i>Synthetic media forensics pipeline</i></summary>
+
+- **Impact:** Ensures digital authenticity and combats AI-generated misinformation by detecting adversarial image perturbations.
+- **Architecture:** Utilizes deep Convolutional Neural Networks (**CNNs**) and **Vision Transformers (ViT)** inside a containerized **PyTorch** ecosystem.
+- **Deployment:** Exposes high-throughput inference endpoints.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/DeepFake-Detection)
+</details>
+
+<details>
+<summary><b>🧠 Knowledge-Sphere</b> — <i>LLM-powered knowledge discovery framework</i></summary>
+
+- **Impact:** Centralizes organizational intelligence with highly accurate, context-aware document search.
+- **Architecture:** A scalable Retrieval-Augmented Generation (**RAG**) framework built with **LangChain**, distributed vector stores (**ChromaDB**), and open-weight Large Language Models.
+- **Deployment:** Dockerized for immediate enterprise onboarding.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/Knowledge-Sphere)
+</details>
 
 ---
 
-## 📈 GitHub Analytics
+## 🌟 Professional Milestones
 
-<div align="center">
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=PRATIKSK7&theme=tokyonight&margin-w=15&margin-h=15&row=1&column=6)
-
-<img src="https://github-readme-stats.vercel.app/api?username=PRATIKSK7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a" width="48%" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=PRATIKSK7&theme=tokyonight&hide_border=true&background=0f172a" width="48%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRATIKSK7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a" width="48%" /> <img src="https://github-readme-activity-graph.vercel.app/graph?username=PRATIKSK7&theme=tokyo-night&bg_color=0f172a&hide_border=true" width="48%" />
-
-</div>
-
----
-
-## 🌟 Key Achievements
-
-- 🧠 **End-to-End AI Engineering:** Architected and deployed production-ready, full-stack AI platforms encompassing backend (FastAPI), frontend (React), and deep neural networks.
-- 🏥 **Healthcare Research Innovation:** Designed dynamic Digital Twin systems capable of simulating complex human physiological states in real time.
-- 🏎️ **Real-Time Edge AI Systems:** Engineered ultra-low-latency computer vision pipelines for live traffic accident detection and immediate emergency alerting.
-- 🤝 **Open Source Contributor:** Actively building and maintaining complex AI repositories, setting industry standards for scalable machine learning deployments.
+- 🧠 **End-to-End AI Engineering:** Consistently architected and deployed production-ready, full-stack AI platforms encompassing backend (FastAPI), frontend (React), and deep neural networks.
+- 🏥 **Healthcare Innovation:** Pioneered dynamic Digital Twin systems capable of simulating complex human physiological states in real time.
+- 🏎️ **Edge AI Development:** Engineered ultra-low-latency computer vision pipelines for live traffic accident detection and immediate emergency alerting.
+- 🤝 **Open Source Leadership:** Actively building and maintaining complex AI repositories, setting industry standards for scalable machine learning deployments.
 
 ---
 
