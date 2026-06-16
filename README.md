@@ -119,6 +119,51 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 - **Link:** [View Repository](https://github.com/PRATIKSK7/Knowledge-Sphere)
 </details>
 
+<details>
+<summary><b>🚀 LifeOS AI</b> — <i>Autonomous AI Chief of Staff</i></summary>
+
+- **Impact:** Mitigates cognitive overload by algorithmically prioritizing daily tasks against long-term objectives.
+- **Architecture:** Integrates **Google Gemini 2.5 Pro** with a custom Decision Engine for real-time executive briefings.
+- **Deployment:** A full-stack **Next.js** application with **Zustand** state management and modern glassmorphism UI.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/life-os-advisor)
+</details>
+
+<details>
+<summary><b>🧩 AI-Sudoku-Solver</b> — <i>End-to-End CV & Deep Learning Pipeline</i></summary>
+
+- **Impact:** Automatically extracts, parses, and solves Sudoku puzzles from raw, unconstrained images.
+- **Architecture:** Employs **OpenCV** for grid extraction, a custom **Keras CNN** for digit OCR, and an optimized backtracking algorithm.
+- **Deployment:** A microservice infrastructure decoupling a **FastAPI** backend from an interactive **Streamlit** frontend, fully containerized via **Docker**.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/AI-Sudoku-Solver)
+</details>
+
+<details>
+<summary><b>🤖 Advanced Chatbot</b> — <i>Real-time AI Chat Platform (Hackathon)</i></summary>
+
+- **Impact:** Delivers instant, context-aware conversations and file sharing using Generative AI models.
+- **Architecture:** Built with a **React** frontend, **Node.js/Express** backend, and **Socket.IO** for real-time WebSocket communication.
+- **Deployment:** Integrated seamlessly with the **OpenAI API** and secured via JWT authentication.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/hackathon)
+</details>
+
+<details>
+<summary><b>🏥 ParvatiClinic Dashboard</b> — <i>Interactive Healthcare Management UI</i></summary>
+
+- **Impact:** Streamlines clinic operations with a responsive, data-driven dashboard interface.
+- **Architecture:** Engineered a scalable frontend using **React.js** to visualize key operational metrics.
+- **Deployment:** Fully bundled and optimized for fast, reliable web hosting.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/healthcare-dashboard)
+</details>
+
+<details>
+<summary><b>🛡️ Fraud Detection Pipeline</b> — <i>End-to-End MLOps Data Pipeline</i></summary>
+
+- **Impact:** Ensures robust, reproducible data processing and model tracking for financial fraud detection.
+- **Architecture:** Utilizes **DVC (Data Version Control)** to architect a reproducible, versioned machine learning pipeline.
+- **Deployment:** Features automated data cleaning and ingestion scripts tightly coupled with Git workflows.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/my-fraud-pipeline)
+</details>
+
 ---
 
 ## 🌟 Professional Milestones
