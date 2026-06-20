@@ -30,6 +30,12 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 
 ---
 
+## 👤 About Me
+
+I am a passionate AI Engineer specializing in Machine Learning, Computer Vision, and full-stack integration. I build robust, production-ready AI systems that solve real-world problems. My expertise lies in taking complex Deep Learning architectures and deploying them into scalable, user-centric web applications.
+
+---
+
 ## 🎯 Strategic Focus
 
 - 🏥 **Healthcare AI:** Pioneering predictive health telemetry and Digital Twin simulations.
@@ -73,6 +79,17 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 ## 🏆 Interactive Project Showcase
 
 *(Click on a project to expand its technical details)*
+
+<details open>
+<summary><b>🔬 AI_Hematologist</b> — <i>Intelligent Blood Smear Analysis & Clinical Copilot Platform</i></summary>
+
+- **Description:** A full-stack, state-of-the-art diagnostic assistant designed to bridge the gap between AI and pathology.
+- **About:** An end-to-end AI-powered hematology analysis system leveraging Computer Vision, Deep Learning, and Generative AI to automate microscopic blood smear diagnostics.
+- **Impact:** Empowers researchers and healthcare professionals with instant, explainable insights through an automated disease risk engine and Google Gemini AI Medical Copilot.
+- **Architecture:** Integrates **YOLOv8** for real-time cell detection, **EfficientNetB0** for RBC morphology classification, and **Google Gemini AI** for clinical report generation.
+- **Deployment:** Powered by a **FastAPI** backend and a **Next.js 15** dashboard with a modern glassmorphism UI.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/AI_Hematologist)
+</details>
 
 <details>
 <summary><b>🚨 AI_ROAD_GUARD</b> — <i>Real-time accident detection and dispatch system</i></summary>
@@ -137,14 +154,6 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 - **Link:** [View Repository](https://github.com/PRATIKSK7/AI-Sudoku-Solver)
 </details>
 
-<details>
-<summary><b>🤖 Advanced Chatbot</b> — <i>Real-time AI Chat Platform (Hackathon)</i></summary>
-
-- **Impact:** Delivers instant, context-aware conversations and file sharing using Generative AI models.
-- **Architecture:** Built with a **React** frontend, **Node.js/Express** backend, and **Socket.IO** for real-time WebSocket communication.
-- **Deployment:** Integrated seamlessly with the **OpenAI API** and secured via JWT authentication.
-- **Link:** [View Repository](https://github.com/PRATIKSK7/hackathon)
-</details>
 
 <details>
 <summary><b>🏥 ParvatiClinic Dashboard</b> — <i>Interactive Healthcare Management UI</i></summary>
@@ -153,15 +162,6 @@ With a robust full-stack foundation in <b>FastAPI, React</b>, and <b>Python</b>,
 - **Architecture:** Engineered a scalable frontend using **React.js** to visualize key operational metrics.
 - **Deployment:** Fully bundled and optimized for fast, reliable web hosting.
 - **Link:** [View Repository](https://github.com/PRATIKSK7/healthcare-dashboard)
-</details>
-
-<details>
-<summary><b>🛡️ Fraud Detection Pipeline</b> — <i>End-to-End MLOps Data Pipeline</i></summary>
-
-- **Impact:** Ensures robust, reproducible data processing and model tracking for financial fraud detection.
-- **Architecture:** Utilizes **DVC (Data Version Control)** to architect a reproducible, versioned machine learning pipeline.
-- **Deployment:** Features automated data cleaning and ingestion scripts tightly coupled with Git workflows.
-- **Link:** [View Repository](https://github.com/PRATIKSK7/my-fraud-pipeline)
 </details>
 
 ---
