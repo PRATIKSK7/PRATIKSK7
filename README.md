@@ -155,15 +155,6 @@ I am a passionate AI Engineer specializing in Machine Learning, Computer Vision,
 </details>
 
 
-<details>
-<summary><b>🏥 ParvatiClinic Dashboard</b> — <i>Interactive Healthcare Management UI</i></summary>
-
-- **Impact:** Streamlines clinic operations with a responsive, data-driven dashboard interface.
-- **Architecture:** Engineered a scalable frontend using **React.js** to visualize key operational metrics.
-- **Deployment:** Fully bundled and optimized for fast, reliable web hosting.
-- **Link:** [View Repository](https://github.com/PRATIKSK7/healthcare-dashboard)
-</details>
-
 ---
 
 ## 🌟 Professional Milestones
