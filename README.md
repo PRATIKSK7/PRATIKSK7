@@ -4,16 +4,21 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/pratik-s-kanoj-a81432300/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="btn_linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="https://github.com/PRATIKSK7">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="btn_github.svg" alt="GitHub" />
   </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="#-interactive-project-showcase">
+    <img src="btn_explore.svg" alt="Explore Projects" />
   </a>
+  <a href="Pratik_S_Kanoj_Resume.pdf">
+    <img src="btn_resume.svg" alt="Resume" />
+  </a>
+</p>
+<p align="center">
   <a href="https://github.com/PRATIKSK7">
-    <img src="https://komarev.com/ghpvc/?username=PRATIKSK7&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=PRATIKSK7&label=Profile%20Views&color=1e3a8a&style=for-the-badge" alt="Profile Views" />
   </a>
 </p>
 
