@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Hi,%20I'm%20Pratik%20S%20Kanoj%20👋&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%" />
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Artificial+Intelligence+%26+Data+Science+Engineer;Machine+Learning+%7C+Deep+Learning+%7C+Computer+Vision;Building+Intelligent+Real-World+AI+Systems;Open+Source+Contributor+%26+Tech+Enthusiast)](https://git.io/typing-svg)
+<img src="banner.svg" width="100%" alt="AI Engineer Banner">
 
 <p align="center">
   <a href="https://www.linkedin.com/in/pratik-s-kanoj-a81432300/">
@@ -13,6 +11,9 @@
   </a>
   <a href="mailto:your.email@example.com">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/PRATIKSK7">
+    <img src="https://komarev.com/ghpvc/?username=PRATIKSK7&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
   </a>
 </p>
 
