@@ -87,6 +87,50 @@ I am a passionate AI Engineer specializing in Machine Learning, Computer Vision,
 *(Click on a project to expand its technical details)*
 
 <details open>
+<summary><b>🛡️ Stampede Detection AI</b> — <i>Intelligent Crowd Anomaly Detection and Early Warning System</i></summary>
+
+- **Description:** An AI-powered crowd anomaly detection and early warning prototype engineered to identify abnormal crowd density surges, turbulent movement patterns, and stampede precursors from visual video feeds.
+- **Problem Statement:** Large-scale public gatherings (festivals, transit hubs, stadiums) face severe crowd crush hazards where manual CCTV surveillance fails to detect localized kinetic turbulence, density build-up, and directional convergence before critical crowd collapse occurs.
+- **Technical Approach:** Implements a multi-stage visual perception and risk-fusion pipeline: utilizes YOLOv8 person detection and tracking for spatial crowd density mapping, Gunnar Farneback dense optical flow for kinetic velocity and divergence vector analysis ($\partial u/\partial x + \partial v/\partial y$), a spatial-temporal convolutional autoencoder trained on normal crowd motion benchmarks (UCSD Ped2) for reconstruction-error (MSE) anomaly scoring, and a multi-factor risk scoring engine.
+- **Key Implemented Features:**
+  - **Crowd Density & Flow Analysis:** Real-time person detection mapped to a 2D density heatmap grid with Gaussian blur, paired with optical flow vectors isolating negative divergence (convergence hotspots).
+  - **Spatiotemporal Anomaly Detection:** 10-frame temporal window convolutional autoencoder calculating frame-by-frame Mean Squared Error (MSE) reconstruction loss; flags kinetic movement anomalies when MSE breaches safety thresholds ($\text{MSE} > 0.02$).
+  - **Multi-Factor Risk Scoring Engine:** Rule-based fusion combining density rate of change ($d\text{Count}/dt$), venue density thresholds ($>4\text{ people/m}^2$), convergence intensity, and velocity sudden-stop signatures into four severity levels (LOW, MODERATE, HIGH, CRITICAL).
+  - **Dual-Channel Emergency Alerting:** Asynchronous notification engine triggering automated outbound Twilio Voice phone calls with Amazon Polly neural TTS (`Polly.Aditi`) and Twilio WhatsApp alerts with incident coordinates.
+  - **Command Center Dashboard:** Asynchronous FastAPI backend streaming real-time frame telemetry via Server-Sent Events (SSE) to a React/Vite operator monitoring interface with live telemetry and diagnostic health checks.
+- **Technology Stack:** Python, FastAPI, PyTorch, TensorFlow / Keras, OpenCV, Ultralytics YOLOv8, Transformers (VideoMAE), React, Vite, Tailwind CSS, Twilio Voice/WhatsApp API, SQLite / SQLAlchemy.
+- **Verified Results:** Evaluated on the UCSD Ped2 crowd anomaly benchmark and staged video sequences; delivers ~2ms video frame decoding, ~12ms Farneback optical flow computation, and ~8ms neural autoencoder inference latency on Apple Silicon hardware.
+- **Current Implementation Status:** Functional proof-of-concept prototype. Built as an exploratory risk-fusion and automated alerting architecture tested on benchmark datasets and staged test feeds; it is not a certified or validated public-safety system deployed in venues and requires venue-specific calibration and human-in-the-loop verification before operational emergency dispatch.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/falcon-ai)
+</details>
+
+<details open>
+<summary><b>🧠 ThreadMind</b> — <i>AI-Powered Customer Support Intelligence and RAG Pipeline</i></summary>
+
+- **Description:** An intelligent customer support conversation intelligence and intent routing system engineered to audit, reconstruct, and classify multi-turn customer dialogues with deterministic human escalation safeguards.
+- **Problem Statement:** High-volume customer support on public channels (@AmazonHelp) suffers from severe semantic ambiguity across short tweets, high inference costs and latency when routing all traffic to LLMs, and dangerous hallucination risks where generative models invent tracking IDs, refund amounts, or unauthorized policies.
+- **Technical Approach:** Combines data pipeline reconstruction across 2.8M customer interactions with a multi-tier classification architecture: discovers a 14-intent support taxonomy, establishes an immutable 196-example evaluation benchmark, and deploys a confidence-gated Fallback Router routing routine queries through deterministic rules and calibrated linear ML, while reserving dense retrieval (FAISS RAG) and LLM reasoning for ambiguous edge cases.
+- **Key Implemented Features:**
+  - **Data Ingestion & Thread Reconstruction:** Ingested the 2.8M-row Customer Support on Twitter dataset (`twcs.csv`), implementing graph-based thread reconstruction (`threads.py`) on `in_reply_to_tweet_id` reply chains to reconstruct multi-turn dialogue trees with strict thread-level train/validation separation.
+  - **Intent Taxonomy & Balanced Golden Set:** Discovered a 14-intent Amazon support taxonomy (e.g., `delivery_missing`, `delivery_delayed`, `returns_refunds`, `account_billing`, `account_access`, `digital_prime_video`, `echo_alexa`) and curated an immutable, balanced 196-example Golden Evaluation Set (14 samples per intent) locked with SHA-256 integrity verification.
+  - **Multi-Tier Classification Baselines:** Implemented high-precision deterministic regex/keyword rules alongside an n-gram TF-IDF + Logistic Regression classifier with probability calibration to resolve routine inquiries with sub-15ms latency.
+  - **Dense Retrieval (FAISS RAG):** Indexed 2,500 historical resolved support threads using `sentence-transformers/all-MiniLM-L6-v2` dense embeddings and FAISS `IndexFlatIP` cosine similarity search ($k=3$) to provide grounded few-shot resolution context.
+  - **Deterministic Escalation Policies:** Hard-coded security rules forcibly overriding automated responses to `ESCALATE` for queries involving PII, order tracking numbers, login credentials, or billing disputes.
+  - **LLM Provider Abstraction & Testing:** Developed an extensible provider interface (`provider.py`) supporting both remote APIs (OpenAI) and local runtimes (Ollama `llama3.2`) with structured JSON schema output, backed by a 40-test automated `pytest` suite validating splits, zero-leakage, and router edge-cases.
+- **Technology Stack:** Python, Flask, PyTorch, Scikit-learn, Sentence-Transformers (`all-MiniLM-L6-v2`), FAISS, Ollama / OpenAI API abstraction, Pytest.
+- **Verified Results:**
+  - **Rule-Based Intent Accuracy:** **98.98%** (Golden Set $N=196$)
+  - **Rule-Based Escalation Accuracy:** **100.00%** (Golden Set $N=196$)
+  - **TF-IDF + Logistic Regression Intent Accuracy:** **84.69%** (Golden Set $N=196$)
+  - **Dense Retrieval Performance:** **Recall@1: 72.45%**, **Recall@3: 84.18%**, **Recall@5: 85.71%**, **MRR@3: 0.7772**
+- **Implementation Status & Evaluation Nuance:**
+  - *Evaluation Set Scope:* The 98.98% rule accuracy is specific to the curated 196-example evaluation set; stress-testing on 500 uncurated validation conversations demonstrated that lexical keyword overlap triggers fallback on 69.2% of real-world queries, meaning curated benchmark accuracy must not be construed as unconstrained production performance.
+  - *LLM Evaluation Note:* Full external cloud LLM benchmark evaluation was not completed due to an API authentication failure during preflight checks, prompting the integration of local offline Ollama inference and safe fallback handling.
+  - *Current State:* Complete verified data pipeline, intent taxonomy, retrieval index, evaluation harness, and test suite; does not represent a commercially deployed customer support service or autonomous live production chatbot.
+- **Link:** [View Repository](https://github.com/PRATIKSK7/ThreadMind)
+</details>
+
+<details open>
 <summary><b>🔬 AI_Hematologist</b> — <i>Intelligent Blood Smear Analysis & Clinical Copilot Platform</i></summary>
 
 - **Description:** A full-stack, state-of-the-art diagnostic assistant designed to bridge the gap between AI and pathology.
